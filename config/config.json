@@ -1,0 +1,12 @@
+[
+	{
+		"host": "sample-hostname",
+		"user": "sample-username",
+		"key": "path/to/ssh/key"
+	},
+	{
+		"host": "sample-hostname2",
+		"user": "sample-username2",
+		"key": "path/to/ssh/key"
+	}
+]

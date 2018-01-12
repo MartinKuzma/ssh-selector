@@ -1,0 +1,3 @@
+#!/bin/bash
+#This is used as alias script
+ssh-selector.py $1
