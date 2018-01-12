@@ -4,6 +4,9 @@ Command line tool for quick selecting of ssh hosts.
 During my time in work I found myself spending too much time on finding and writing ssh connection commands. 
 With this simple tool you will be able to quickly type part of host name from configuration file and connect to server.
 
+There is no need to store passwords and other information except host, username and (optionaly) key to ssh-key.
+
+
 ### How to use it
 
     sshs <part of host name>
@@ -20,6 +23,10 @@ Listing all hosts:
 
     sshs list
 
+
+Default path to configuration is:
+
+    /etc/ssh-selector/config.json
 
 ### Requirements:
 * python 3.5 or newer
